@@ -54,7 +54,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Environment variables
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = os.getenv("7934676125:AAEghFPs6ti6nzsHkC8oUU5fjzjmOTXMlWw")
 API_ID = int(os.getenv("TELEGRAM_API_ID"))
 API_HASH = os.getenv("TELEGRAM_API_HASH")
 
