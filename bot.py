@@ -54,9 +54,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Environment variables
-BOT_TOKEN = os.getenv("7934676125:AAEghFPs6ti6nzsHkC8oUU5fjzjmOTXMlWw")
-API_ID = int(os.getenv("24184946"))
-API_HASH = os.getenv("db7aa8593d6422dd3924f629d6cbe808")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7934676125:AAEghFPs6ti6nzsHkC8oUU5fjzjmOTXMlWw")
+API_ID = int(os.getenv("API_ID", "24184946"))
+API_HASH = os.getenv("API_HASH", "db7aa8593d6422dd3924f629d6cbe808")
 
 # State management
 USER_STATES: Dict[int, str] = {}  # Tracks user state (e.g., 'user_mode', 'admin_mode')
